@@ -1,0 +1,14 @@
+[
+  { "id": "isagi_yoichi", "name": "Isagi Yoichi", "aliases": ["Isagi", "Yoichi"],
+    "spawnArt": { "normal": "file:spawn/isagi_spawn_normal.png", "shiny": "file:spawn/isagi_spawn_shiny.png" } },
+  { "id": "bachira_meguru", "name": "Bachira Meguru", "aliases": ["Bachira", "Meguru"],
+    "spawnArt": { "normal": "file:spawn/bachira_spawn_normal.png", "shiny": "file:spawn/bachira_spawn_shiny.png" } },
+  { "id": "nagi_seishiro", "name": "Nagi Seishiro", "aliases": ["Nagi", "Seishiro"],
+    "spawnArt": { "normal": "file:spawn/nagi_spawn_normal.png", "shiny": "file:spawn/nagi_spawn_shiny.png" } },
+  { "id": "chigiri_hyoma", "name": "Chigiri Hyoma", "aliases": ["Chigiri", "Hyoma"],
+    "spawnArt": { "normal": "file:spawn/chigiri_spawn_normal.png", "shiny": "file:spawn/chigiri_spawn_shiny.png" } },
+  { "id": "reo_mikage", "name": "Reo Mikage", "aliases": ["Reo", "Mikage"],
+    "spawnArt": { "normal": "file:spawn/reo_spawn_normal.png", "shiny": "file:spawn/reo_spawn_shiny.png" } },
+  { "id": "barou_shoei", "name": "Barou Shoei", "aliases": ["Barou", "Shoei", "King"],
+    "spawnArt": { "normal": "file:spawn/barou_spawn_normal.png", "shiny": "file:spawn/barou_spawn_shiny.png" } }
+]

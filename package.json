@@ -1,0 +1,38 @@
+{
+  "name": "blue-dex",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Blue Dex (working name): a Discord character-collection bot. Unofficial fan project.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/src/index.js",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "catalogue:validate": "tsx scripts/validate-catalogue.ts",
+    "commands:register": "tsx scripts/register-commands.ts",
+    "db:backup": "tsx scripts/backup.ts",
+    "db:restore": "tsx scripts/restore.ts",
+    "db:restore-test": "tsx scripts/restore-test.ts",
+    "load-test": "tsx scripts/load-test.ts",
+    "ops": "tsx scripts/ops.ts"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.9",
+    "pino": "^10.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "tsx": "^4.23.15",
+    "vitest": "^5.0.5",
+    "@types/node": "^26.6.6",
+    "@types/better-sqlite3": "^9.6.0"
+  }
+}

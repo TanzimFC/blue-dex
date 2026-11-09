@@ -1,0 +1,22 @@
+{
+  "sets": [
+    { "id": "genesis", "name": "Genesis" },
+    { "id": "second_stage", "name": "Second Stage" }
+  ],
+  "cards": [
+    { "id": "isagi_001", "characterId": "isagi_yoichi", "edition": "Awakened Eye", "rarity": "rare", "setId": "genesis",
+      "stats": { "Position": "Forward", "Number": 11 }, "art": { "normal": "file:cards/isagi_card_001_normal.png", "shiny": "file:cards/isagi_card_001_shiny.png" } },
+    { "id": "isagi_002", "characterId": "isagi_yoichi", "edition": "Predator", "rarity": "epic", "setId": "second_stage",
+      "art": { "normal": "file:cards/isagi_card_002_normal.png", "shiny": "file:cards/isagi_card_002_shiny.png" } },
+    { "id": "bachira_001", "characterId": "bachira_meguru", "edition": "Monster Dribble", "rarity": "uncommon", "setId": "genesis",
+      "art": { "normal": "file:cards/bachira_card_001_normal.png", "shiny": "file:cards/bachira_card_001_shiny.png" } },
+    { "id": "nagi_001", "characterId": "nagi_seishiro", "edition": "Genius Trap", "rarity": "rare", "setId": "genesis",
+      "art": { "normal": "file:cards/nagi_card_001_normal.png", "shiny": "file:cards/nagi_card_001_shiny.png" } },
+    { "id": "chigiri_001", "characterId": "chigiri_hyoma", "edition": "Lightning Sprint", "rarity": "common", "setId": "genesis",
+      "art": { "normal": "file:cards/chigiri_card_001_normal.png", "shiny": "file:cards/chigiri_card_001_shiny.png" } },
+    { "id": "reo_001", "characterId": "reo_mikage", "edition": "Chameleon", "rarity": "common", "setId": "genesis",
+      "art": { "normal": "file:cards/reo_card_001_normal.png", "shiny": "file:cards/reo_card_001_shiny.png" } },
+    { "id": "barou_001", "characterId": "barou_shoei", "edition": "King", "rarity": "legendary", "setId": "second_stage",
+      "art": { "normal": "file:cards/barou_card_001_normal.png", "shiny": "file:cards/barou_card_001_shiny.png" } }
+  ]
+}

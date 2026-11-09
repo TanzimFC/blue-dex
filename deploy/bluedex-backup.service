@@ -1,0 +1,8 @@
+[Unit]
+Description=Blue Dex database backup
+[Service]
+Type=oneshot
+User=bluedex
+WorkingDirectory=/opt/bluedex
+EnvironmentFile=/opt/bluedex/.env
+ExecStart=/usr/bin/node dist/scripts/backup.js

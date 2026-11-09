@@ -1,0 +1,24 @@
+[Unit]
+Description=Blue Dex Discord bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=bluedex
+WorkingDirectory=/opt/bluedex
+EnvironmentFile=/opt/bluedex/.env
+ExecStart=/usr/bin/node dist/src/index.js
+Restart=always
+RestartSec=5
+# Allow the graceful shutdown (WAL checkpoint, db close) to finish
+TimeoutStopSec=30
+# Keep a runaway process from taking the whole 1 GB box down
+MemoryMax=700M
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/opt/bluedex/data /opt/bluedex/backups
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
